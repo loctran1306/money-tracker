@@ -1,0 +1,25 @@
+# Thư mục node_modules (thư viện cài bằng npm/yarn)
+node_modules/
+
+# Thư mục build của Next.js
+.next/
+out/
+dist/
+
+# File log
+npm-debug.log*
+yarn-error.log*
+
+# File môi trường (chứa API KEY, secret)
+.env
+.env.local
+.env.*.local
+
+# File cấu hình IDE/editor
+.vscode/
+.idea/
+.DS_Store
+
+# File cache
+.cache/
+logs/
