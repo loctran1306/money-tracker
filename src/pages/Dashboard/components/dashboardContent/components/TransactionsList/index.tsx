@@ -7,7 +7,7 @@ import { convertMonthPattern } from "../../../../../../utils/convertMonthPattern
 import { getAllTransactions } from "../../../../../../data/firebase";
 import { useSelector, useDispatch } from "react-redux";
 import { RootState } from "../../../../../../store";
-import { setTransactions, TransactionData } from "../../../../../../store/transactionSlice";
+import { setTransactions } from "../../../../../../store/transactionSlice";
 
 interface IconMap {
     [key: string]: React.ReactNode;
